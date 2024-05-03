@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+  }
+
+header {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    background-color: #345D9B;
+    box-shadow: 1px 9px 17px -6px rgba(0,0,0,0.33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #FFF;
+    font-weight: 800;
+    font-style: italic;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #345D9B;
+    height: 10vh;
+    padding: 0 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    margin: 10vh 0;
+    height: 100%;
+    width: 100%;
+}
+
+form {
+    height: 100%;
+    width: 100%;
+    background-color: #E1EDFF;
+    padding: 0;
+}
+
+.cont__formulario {
+    border: 5px double #345D9B;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.entrada {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px;
+    height: 20%;
+    min-height: 100px;
+    width: 20%;
+    min-width: 150px;
+    border: 1px solid #345D9B;
+    border-radius: 10px;
+}
+
+.entrada > label, h3 {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.entrada > input {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    min-height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.cont__botones {
+    height: 14vh;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: #6F97D2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.boton {
+    height: 70%;
+    width: 40%;
+    border: 3px solid #345D9B;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #345D9B;
+    font-weight: 800;
+    background-color: #FFF;
+    transition: 0.3s all;
+}
+
+.boton:hover {
+    cursor: pointer;
+    border-color: #FFF;
+    background-color: #345D9B;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.opciones {
+    gap: 5px;
+}
+
+.opciones > .ingreso {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2px;
+    align-items: center;
+    width: 100%;
+}
+
+.opciones > h3 {
+    margin-bottom: 15px;
+}
+
+.ingreso > input {
+    width: 20px;
+    height: 20px;
+}
+
+.ingreso > label {
+    font-weight: 400;
+    width: 30%;
+}
